@@ -1,5 +1,5 @@
 clean:
-  cargo clean
+  anchor clean
 
 test:
   anchor test
