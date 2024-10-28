@@ -14,4 +14,8 @@ pub mod solprofile {
     pub fn create(ctx: Context<Create>) -> Result<()> {
         instructions::create(ctx)
     }
+
+    pub fn update(ctx: Context<Update>, args: UpdateArgs) -> Result<()> {
+        instructions::update(ctx, args)
+    }
 }
