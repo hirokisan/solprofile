@@ -1,8 +1,6 @@
 use anchor_lang::prelude::*;
 
-use crate::states::Profile;
-
-pub const PROFILE_SEED: &[u8] = b"profile";
+use crate::states::{Profile, PROFILE_SEED};
 
 pub fn create(_: Context<Create>) -> Result<()> {
     Ok(())

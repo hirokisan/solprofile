@@ -1,5 +1,7 @@
 use anchor_lang::prelude::*;
 
+pub const PROFILE_SEED: &[u8] = b"profile";
+
 // Space Reference : https://book.anchor-lang.com/anchor_references/space.html
 pub const DISCRIMINATOR_SIZE: usize = 8;
 
