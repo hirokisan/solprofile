@@ -4,9 +4,10 @@ solprofile gives profile to the wallet on solana.
 
 ## Setup
 
-- Install Rust
-- Install Solana CLI
-- Install Anchor CLI
+- [Install Rust](https://www.rust-lang.org/tools/install)
+- [Install Solana CLI](https://docs.solanalabs.com/cli/install)
+- [Install Anchor CLI](https://www.anchor-lang.com/docs/installation)
+- [Optional] [Install just](https://github.com/casey/just)
 
 ## Run on localnet
 
