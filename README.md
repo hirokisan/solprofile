@@ -78,3 +78,9 @@ https://solscan.io/account/{ProgramID}?cluster=custom&customUrl=http://localhost
 ### Keep keypair secret to reuse
 
 Keep the keypair generated in `target/deploy` after `anchor build`.
+
+### If for some reason a build doesn't pass or a test doesn't pass
+
+```console
+$ just clean
+```
